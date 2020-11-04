@@ -5,7 +5,7 @@ Travis-CI will build all production images from our code repo (as described in .
 Refer dockerhub link for confirmation as : https://hub.docker.com/
 
 Below is the list of images that will be pushed onto dockerhub : 
- - dockerhubid/multi-worker
- - dockerhubid/multi-server
- - dockerhubid/multi-nginx
- - dockerhubid/multi-client
+ - yourdockerhubid/multi-worker
+ - yourdockerhubid/multi-server
+ - yourdockerhubid/multi-nginx
+ - yourdockerhubid/multi-client
