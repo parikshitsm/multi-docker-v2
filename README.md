@@ -9,3 +9,11 @@ Below is the list of images that will be pushed onto dockerhub :
  - yourdockerhubid/multi-server
  - yourdockerhubid/multi-nginx
  - yourdockerhubid/multi-client
+ 
+Every image mentioned above corresponds to respective docker container. 
+Once all the above images are pushed to dockerhub, travis-CI will push the Dockerrun.aws.json file to AWS Elasticbeanstalk.
+
+To run this application successfully on AWS, we need to create Redis & Postgres services separately for interacting with AWS EBS over same security group.(We can keep default VPC which is fine)
+
+- Verify your AWS EBS url and confirm if the Fibonacci calculator is running successfully on AWS.   
+
