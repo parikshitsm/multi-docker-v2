@@ -15,5 +15,13 @@ Once all the above images are pushed to dockerhub, travis-CI will push the Docke
 
 To run this application successfully on AWS, we need to create Redis & Postgres services separately for interacting with AWS EBS over same security group.(We can keep default VPC which is fine)
 
-- Verify your AWS EBS url and confirm if the Fibonacci calculator is running successfully on AWS.   
+
+- Steps to run the application : 
+Under root project directory, run below command : 
+  
+  docker-compose up --build
+  
+Above command may take some time to build and deploy all associated images. Once successfully deployed, open the browser and hit URL : http://localhost:3050
+
+Above url shall invoke the Fibonacci Calculator application in React. 
 
